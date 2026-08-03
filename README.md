@@ -1,17 +1,58 @@
-# bep_nha
+# Bếp Nhà
 
-A new Flutter project.
+Ứng dụng Flutter hỗ trợ chia sẻ và quản lý công thức nấu ăn.
 
-## Getting Started
+## Thông tin đề tài
 
-This project is a starting point for a Flutter application.
+- Tên đề tài: Xây dựng ứng dụng di động chia sẻ công thức nấu ăn
+- Tên ứng dụng: Bếp Nhà
+- Lớp học phần: N01
+- Nhóm: 2
+- Giảng viên hướng dẫn: Nguyễn Xuân Quế
 
-A few resources to get you started if this is your first Flutter project:
+## Thành viên nhóm
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| STT | Họ và tên | Mã sinh viên | Vai trò |
+|---:|---|---|---|
+| 1 | Phạm Trung Thành | 24100326 | Trưởng nhóm |
+| 2 | Nguyễn Việt Cường | 24100397 | Thành viên |
+| 3 | Đỗ Duyên Cường | 24100332 | Thành viên |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Chức năng dự kiến
+
+- Hiển thị danh sách công thức nấu ăn
+- Tìm kiếm và lọc công thức
+- Xem nguyên liệu và các bước chế biến
+- Tạo, chỉnh sửa và xóa công thức
+- Lưu công thức yêu thích
+- Hỗ trợ tiếng Việt và tiếng Anh
+- Hiển thị thông tin nhóm
+
+## Công nghệ sử dụng
+
+- Flutter
+- Dart
+- Material Design 3
+- Provider và ChangeNotifier
+- Flutter Localization
+- Git và GitHub
+
+## Nền tảng
+
+Ứng dụng được phát triển và kiểm thử trên Windows Desktop.
+
+## Cách chạy dự án
+
+1. Cài đặt Flutter SDK.
+2. Tải mã nguồn.
+3. Cài đặt các package:
+
+    ```powershell
+    flutter pub get
+    ```
+
+4. Chạy ứng dụng:
+
+    ```powershell
+    flutter run -d windows
+    ```
